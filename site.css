@@ -1,0 +1,137 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  height: 1080px;
+  width: 1920px;
+  background-image: url("images/Bg.jpg");
+  background-repeat: no-repeat;
+  background-position:0 0 ;
+  background-size: cover;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+  
+
+  div.parent-div {
+  
+  background-color:#05ab88;
+  height: 80px;
+  display:flex;
+  justify-content:space-between;
+  margin-right:-13px;
+  max-height:100px;
+  text-align:center;
+}
+
+.img{
+  width: 220px;
+  padding:10px;
+}
+
+div a img{
+  width: 75px;
+  height:60px;
+  box-sizing: border-box;
+}
+
+.poisk {
+  width:220px ;
+  }
+  
+  div form button{
+  border-left-width: 2px;
+  border-right-width:2px ;
+  border-top-width: 2px;
+  border-bottom-width: 2px; 
+  }
+
+
+  div.parent-div .search {
+  width: 150px;
+  height: 21px;
+  border-right-width: 1px;
+  border-left-width: 1px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.menu{
+width: 220px;
+}
+
+
+ul {
+  padding-left: 0px;
+}
+
+nav ul {
+  min-height: 10px;
+
+}
+nav ul p {
+  margin: 0;
+  border: 1px solid black;
+  text-align: center;
+  width: 125px;
+  font-size: 25px;  
+  height: 50px;
+  background-color: white;
+}
+nav ul ul {
+  display: none;
+  overflow: hidden;
+  background-color: #1e1e1e;
+  max-width: 125px;
+  text-align: left;
+}
+nav ul ul li a {
+  display: inline-block;
+  padding: 6px 8px;
+  text-decoration: none;
+  color: #3fcfa4;
+  width: 100%;
+}
+nav ul ul li a:hover {
+  background-color: white;
+}
+nav ul:hover ul {
+  display: block;
+}
+div .log-in{
+  width: 220px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.registration{
+  border: 1px solid white;
+  border-radius:25px;
+  background-color: white;
+  color: black;
+  
+  width: 220px;
+  font-size: 20px;
+}
+
+.child{
+  text-align: center;
+  color: white;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 45px;
+  font-weight: 100%;
+  box-shadow: 10%;
+  opacity:80%;
+    }
